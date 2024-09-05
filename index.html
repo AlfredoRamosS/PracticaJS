@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+       <nav>
+           <ul class="menu">
+               <li><a href="index.html">Calculadora</a></li>
+               <li><a href="ejercicio1.html">Notas</a></li>
+               <li><a href="ejercicio2.html">Productos</a></li>
+               <li><a href="ejemplo1.html">Lista de frutas</a></li>
+               <li><a href="ejemplo2.html">Ejemplo 2</a></li>
+           </ul>
+       </nav>
+    </header>
+
+    <h1>Calculadora</h1>
+
+    <form>
+
+        <input type="text" id="txtNumero1" placeholder="Numero 1" />
+        <input type="text" id="txtNumero2" placeholder="Numero 2" />
+        <input type="text" id="txtResultado" placeholder="Total" disabled />
+
+        <button type="button" onclick="calcular()">Calcular</button>
+        <button type="reset">Cancelar</button>
+
+    </form>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
